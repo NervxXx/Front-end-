@@ -1,0 +1,1278 @@
+@font-face {
+  font-family: "Involve";
+  src: url("fonts/Involve-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hauora";
+  src: url("fonts/Hauora-ExtraBold\ \(1\).otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: column;
+  line-height: 140%;
+  letter-spacing: 0%;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.First,
+.SecondSelection,
+.ThirdSelection,
+.fourthSelection,
+.fifthSelection,
+.sixthSelection {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.First {
+  height: 985px;
+  width: 1920px;
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.FirstSelection {
+  margin: 50px 130px 0px 130px;
+}
+
+.headerFirstSelection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerFirstSelectionImgText {
+  display: flex;
+}
+
+.headerFirstSelectionImg {
+  display: flex;
+  margin-right: 106px;
+}
+
+.headerFirstSelectionText {
+  display: flex;
+  font-family: "TeXGyreAdventor", sans-serif;
+  width: 406px;
+  height: 28px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #193944;
+}
+.headerFirstSelectionText div {
+  cursor: pointer;
+  user-select: none;
+}
+
+.headerFirstSelectionBtn {
+  cursor: pointer;
+  user-select: none;
+  cursor: pointer;
+  user-select: none;
+  width: 325px;
+  height: 65px;
+  border: 3px solid #2a555b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2a555b;
+  transition: all 0.3s ease;
+}
+
+.headerFirstSelectionBtn:hover {
+  background-color: #2a555b;
+  color: white;
+}
+
+.headerFirstSelectionBtn:active {
+  transform: scale(0.8);
+}
+
+.FirstSelectionMain {
+  display: flex;
+  justify-content: space-between;
+}
+.theRiver {
+  width: 670px;
+  height: 226.88px;
+
+  margin-top: 41px;
+}
+.theRiverText1 {
+  display: flex;
+  width: 670px;
+  height: 203px;
+  align-items: center;
+  font-size: 145px;
+  font-family: "Involve", sans-serif;
+  margin: 0px;
+}
+.theRiverText2 {
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-size: 44px;
+  margin: 0px;
+  font-weight: 400;
+  color: #242424;
+  position: relative;
+  bottom: 9px;
+}
+
+.StartLearn {
+  width: 680px;
+  height: 197px;
+}
+.StartLearn {
+  margin-top: 71px;
+}
+
+.StartLearnText {
+  height: 84px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #242424;
+  line-height: 140%;
+}
+
+.StartLearnBtns {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 38px;
+}
+
+.StartLearnBtn1 {
+  cursor: pointer;
+  user-select: none;
+  width: 325px;
+  height: 65px;
+  background-color: #2a555b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.StartLearnBtn2 {
+  cursor: pointer;
+  user-select: none;
+  width: 325px;
+  height: 65px;
+  border: 3px solid #2a555b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2a555b;
+  transition: all 0.3s ease;
+}
+
+.StartLearnBtn1:hover {
+  background-color: transparent;
+  border: 3px solid #2a555b;
+  color: #2a555b;
+}
+
+.StartLearnBtn1:active {
+  transform: scale(0.98);
+}
+.StartLearnBtn2:hover {
+  background-color: #2a555b;
+  color: white;
+}
+
+.StartLearnBtn2:active {
+  transform: scale(0.98);
+}
+
+.SecondFirst1header {
+  display: flex;
+}
+
+.SecondFirst {
+  position: relative;
+  top: 213px;
+  flex-direction: column;
+}
+
+.SecondFirst1 {
+  width: 397px;
+  height: 601.67px;
+
+  display: flex;
+  position: relative;
+  overflow: visible;
+  flex-direction: column;
+}
+.SecondFirst1imgs {
+  position: relative;
+}
+.SecondFirst1img:nth-child(2) {
+  position: relative;
+  right: 48px;
+}
+.SecondFirst1img:nth-child(3) {
+  position: relative;
+  right: 96px;
+}
+
+.SecondFirst1img:nth-child(4) {
+  position: relative;
+  right: 144px;
+}
+
+.SecondFirst1Text {
+  width: 1px;
+  height: 65.3652px;
+  position: relative;
+  top: 16px;
+  right: 120px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  line-height: 100%;
+  color: #242424;
+}
+.SecondFirst1Text1 {
+  font-weight: 700;
+  font-size: 43.68px;
+}
+
+.SecondFirst1Bottom {
+  margin-top: 19px;
+}
+
+.chart-card {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 397;
+  height: 447px;
+  padding: 24px 16px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.top-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 336.6px;
+  height: 78px;
+  gap: 12px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+.percent {
+  font-size: 56px;
+  font-weight: 600;
+  color: #242424;
+  font-family: "Hauora", sans-serif;
+}
+
+.description {
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-size: 18px;
+  color: #242424;
+  text-align: left;
+  font-weight: 400;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 280px;
+  margin-bottom: 12px;
+}
+
+.bar {
+  width: 87.5px;
+  border-radius: 6px;
+  background: linear-gradient(to top, #cfe0e8, #f7f7ff);
+  opacity: 0.8;
+}
+
+.mon {
+  height: 140.71875px;
+  background: linear-gradient(to top, #cfe0e8, #cfe0e8);
+}
+.tue {
+  height: 200px;
+  background: linear-gradient(to top, #c5d8e1, #dbe6eca9);
+}
+.wed {
+  height: 270px;
+  background: linear-gradient(to top, #dce5e9, #f3eded6d);
+}
+.thu {
+  height: 230px;
+  background: linear-gradient(to top, #cfe0e8, #eaeafb5b);
+}
+
+.labels {
+  width: 295px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  display: flex;
+  margin-left: 35px;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #78a3ac;
+  font-weight: 400;
+}
+
+.SecondFirst2 {
+  user-select: none;
+  pointer-events: none;
+}
+
+.SecondFirst2Img1 {
+  width: 820.4px;
+  height: 664.63px;
+  position: absolute;
+  bottom: -7px;
+  left: 420px;
+  user-select: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+.SecondFirst2Img2 {
+  width: 847.63px;
+  height: 814.46px;
+  position: absolute;
+  bottom: -7px;
+  bottom: -7px;
+  left: 380px;
+  user-select: none;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.SecondFirst3 {
+  width: 400px;
+  height: 569px;
+  margin-left: 200px;
+  position: absolute;
+  bottom: -13px;
+  left: 1070px;
+}
+
+.SecondFirst3Text {
+  font-size: 20px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.SecondFirst3Box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 495px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  background-image: url(img/image\ 82.png);
+}
+
+.SecondFirst3TextBox1 {
+  display: flex;
+  justify-content: center;
+  font-family: "TeXGyreAdventor", sans-serif;
+  margin-top: 54px;
+  color: #193944;
+  margin-bottom: 41px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #242424;
+}
+
+.SecondFirst3TextBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  height: 66px;
+  background-color: #cbdee5;
+  border-radius: 570.77px;
+  margin-left: 16px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  width: 700;
+  font-size: 24px;
+  color: #193944;
+  margin-bottom: 48px;
+}
+
+.SecondFirst3TextBox3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320.7px;
+  height: 67.5px;
+  background-color: #cbdee5;
+  border-radius: 570.77px;
+  margin-left: 63px;
+  margin-bottom: 48px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  width: 700;
+  color: #193944;
+  font-size: 24px;
+}
+
+.SecondFirst3TextBox4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 365px;
+  height: 84px;
+  background-color: #cbdee5;
+  border-radius: 570.77px;
+  margin-left: 17px;
+  color: #193944;
+  font-family: "TeXGyreAdventor", sans-serif;
+  width: 700;
+  font-size: 24px;
+}
+
+.SecondSelection {
+  display: flex;
+  flex-direction: column;
+  height: 1564px;
+  width: 1920px;
+  background: linear-gradient(#2a555b, #193944);
+  position: relative;
+  bottom: 434px;
+  z-index: -1;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.SecondSelectionMainContent {
+  display: flex;
+  height: 678px;
+  width: 1920px;
+  margin-top: auto;
+  flex-direction: column;
+}
+
+.SecondHeader {
+  margin-top: -88.2px;
+  display: flex;
+  margin-left: 130px;
+  width: 1640px;
+  height: 80.8px;
+
+  font-family: "TeXGyreAdventor", sans-serif;
+}
+
+.SecondHeader1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.SecondHeader2 {
+  width: 271px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 64px;
+
+  line-height: 110%;
+  color: #2a555b;
+}
+
+.SecondHeader3 {
+  width: 594.3534088563px;
+  height: 78.00000200810796px;
+  margin-left: auto;
+  font-size: 28px;
+  font-weight: 400;
+  vertical-align: middle;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.SecondSelectionBloks {
+  width: 1660px;
+  height: 472px;
+
+  display: flex;
+  margin-left: 125px;
+  margin-top: 71px;
+  font-family: "TeXGyreAdventor", sans-serif;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1660px;
+  width: 100%;
+}
+
+.feature {
+  background: #315b62;
+  border-radius: 37px;
+  padding: 20px;
+  transition: 0.3s;
+  color: #ffffff;
+  padding: 40px;
+}
+
+.feature:nth-child(4) {
+  background-color: #0f2d38;
+}
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-weight: 700;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.feature p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #d3dce2;
+}
+
+.ThirdSelection {
+  display: flex;
+  flex-direction: column;
+  width: 1971px;
+  height: 1214px;
+  background-image: url(img/Kletki.png);
+
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 600px;
+  z-index: -100;
+}
+
+.ThirdSelectionImgs1 {
+  position: absolute;
+  top: 262.37px;
+  left: 90.45px;
+}
+
+.ThirdSelectionImgs2 {
+  position: absolute;
+  top: 425px;
+  left: 329px;
+}
+
+.ThirdSelectionImgs3 {
+  position: absolute;
+  top: 741px;
+  left: 115px;
+}
+
+.ThirdSelectionText1 {
+  width: 817px;
+  height: 82px;
+  color: #242424;
+  margin-top: 262.37px;
+  margin-left: 972px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  display: flex;
+  font-size: 64px;
+  align-items: center;
+  font-weight: 700;
+  justify-content: space-between;
+}
+.ThirdSelectionText1Text {
+  position: relative;
+  bottom: 10px;
+}
+.ThirdSelectionText1Btn {
+  color: #242424;
+  width: 350px;
+  height: 82px;
+  background-color: #d0e1e8;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThirdSelectionText1BtnInside {
+  position: relative;
+  bottom: 10px;
+}
+
+.ThirdSelectionText2 {
+  width: 820.76px;
+  height: 387.16px;
+
+  margin-left: 972px;
+  margin-top: 61px;
+}
+
+.ThirdSelectionText2Box {
+  width: 820.76px;
+  height: 102.4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 40px;
+  line-height: 140%;
+  font-family: "TeXGyreAdventor", sans-serif;
+}
+
+.ThirdSelectionText2Box:nth-child(3) {
+  margin-bottom: 0px;
+}
+
+.ThirdSelectionText2BoxNumber {
+  width: 71px;
+  height: 47px;
+
+  font-weight: 400;
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.ThirdSelectionText2BoxText {
+  width: 681.42px;
+  height: 102.4px;
+  color: #242424;
+}
+.ThirdSelectionText2BoxTextTop {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 15px;
+  height: 42px;
+}
+
+.ThirdSelectionText2BoxTextBottom {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ThirdSelectionText2BoxLines {
+  position: absolute;
+}
+
+.ThirdSelectionText2BoxLines.p1 {
+  position: absolute;
+  right: 846.5px;
+  bottom: 385px;
+}
+
+.ThirdSelectionText2BoxLines.p2 {
+  position: absolute;
+  margin-left: -45px;
+  bottom: 530px;
+}
+.ThirdSelectionText2BoxLines.p3 {
+  position: absolute;
+  margin-left: -45px;
+  bottom: 674px;
+}
+
+.ThirdSelectionText2btn {
+  cursor: pointer;
+  user-select: none;
+  width: 820px;
+  height: 139px;
+  background-color: #2a555b;
+  margin-top: 95px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ThirdSelectionText2btnInside {
+  width: 669.76px;
+  height: 84px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "TeXGyreAdventor", sans-serif;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.fourthSelection {
+  position: absolute;
+  width: 1920px;
+  height: 753.42px;
+  background: linear-gradient(#2a555b, #193944);
+  top: 3150px;
+  z-index: 15;
+}
+
+.fourthSelectionTop {
+  width: 640px;
+  height: 117px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  line-height: 110%;
+  color: #ffffff;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+.fourthSelectionMiddle {
+  font-family: "TeXGyreAdventor", sans-serif;
+  width: 377px;
+  height: 39px;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 28px;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+
+.fourthSelectionBox {
+  width: 735px;
+  height: 390px;
+  margin-top: 25.25px;
+  margin-left: 130px;
+  background-color: #0f2d38;
+  border-radius: 20px;
+  display: flex;
+}
+.fourthSelectionBoxInside {
+  width: 657px;
+  height: 289px;
+  margin-top: 50.5px;
+  margin-left: 39px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  height: 78px;
+  background-color: #22525b;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 19px;
+  padding-left: 29px;
+}
+
+.form-input::placeholder {
+  color: #ffffff85;
+  font-family: "TeXGyreAdventor", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.form-button {
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #0e2e36;
+  width: 657px;
+  height: 75px;
+  font-weight: bold;
+  font-family: "TeXGyreAdventor", sans-serif;
+  border: none;
+  font-size: 20px;
+  border-radius: 500px;
+  color: #2a555b;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+.form-button:active {
+  transform: scale(0.98);
+}
+
+.fourthSelectionImg {
+  position: absolute;
+  left: 989px;
+  bottom: 0px;
+}
+
+.fourthSelectionImgBackground {
+  position: absolute;
+  left: 126.7px;
+  z-index: -1;
+  bottom: 0px;
+}
+
+.fifthSelection {
+  width: 1920px;
+  height: 1195px;
+  background-color: #f3f3f3;
+  margin-top: 140px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.fifthSelectionInside {
+  width: 1661px;
+  height: 914.6px;
+
+  margin-top: 140px;
+  margin-left: 130px;
+}
+
+.fifthSelectionInsideTextTarif {
+  width: 244px;
+  height: 47px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "TeXGyreAdventor", sans-serif;
+}
+
+.fifthSelectionInsideHeader {
+  width: 1661px;
+  height: 71px;
+
+  margin-top: 72.6px;
+}
+.fifthSelectionInsideHeaderBeetwen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifthSelectionInsideHeaderGroup {
+  height: 71px;
+  width: 1069px;
+  font-family: "TeXGyreAdventor", sans-serif;
+  display: flex;
+  gap: 16px;
+  color: #757575;
+  font-size: 20px;
+  font-family: 700;
+  line-height: 140%;
+}
+
+.fifthSelectionInsideHeaderGroup1 {
+  user-select: none;
+  cursor: pointer;
+  width: 373px;
+  height: 71px;
+  background-color: #d0e1e8;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.fifthSelectionInsideHeaderGroup1:hover {
+  border: 2px solid black;
+}
+.fifthSelectionInsideHeaderGroup1:active {
+  transform: scale(0.98);
+}
+
+.fifthSelectionInsideHeaderGroup2 {
+  user-select: none;
+  cursor: pointer;
+  width: 252px;
+  height: 71px;
+  background-color: #ececec;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+.fifthSelectionInsideHeaderGroup2:hover {
+  border: 2px solid black;
+}
+.fifthSelectionInsideHeaderGroup2:active {
+  transform: scale(0.98);
+}
+.fifthSelectionInsideHeaderGroup3 {
+  user-select: none;
+  cursor: pointer;
+  width: 165px;
+  height: 71px;
+  background-color: #ececec;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  align-items: center;
+}
+.fifthSelectionInsideHeaderGroup3:hover {
+  border: 2px solid black;
+}
+.fifthSelectionInsideHeaderGroup3:active {
+  transform: scale(0.98);
+}
+.fifthSelectionInsideHeaderGroup4 {
+  user-select: none;
+  cursor: pointer;
+  width: 231px;
+  height: 71px;
+  background-color: #ececec;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+.fifthSelectionInsideHeaderGroup4:hover {
+  border: 2px solid black;
+}
+.fifthSelectionInsideHeaderGroup4:active {
+  transform: scale(0.98);
+}
+.fifthSelectionInsideHeaderStrelki {
+  display: flex;
+  justify-content: space-between;
+  width: 156px;
+  height: 70px;
+}
+
+.fifthSelectionInsideHeaderStrelki img {
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fifthSelectionInsideHeaderStrelki img:active {
+  transform: scale(0.8);
+}
+
+.fifthSelectionInsideMain {
+  width: 1660px;
+  height: 660px;
+  margin-top: 61px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.fifthSelectionInsideMain1 {
+  width: 400px;
+  height: 660px;
+  background-color: #ffffff;
+  border-radius: 28px;
+}
+
+.hidden {
+  display: none;
+}
+
+.fifthSelectionInsideMain1Inside {
+  font-family: "TeXGyreAdventor", sans-serif;
+  width: 332px;
+  height: 585px;
+  margin-top: 41px;
+  margin-left: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fifthSelectionInsideMain1Inside1 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #2a555b;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+.fifthSelectionInsideMain1Inside2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #242424;
+}
+
+.fifthSelectionInsideMain1Inside3 {
+  width: 251px;
+  height: 47.5px;
+  display: flex;
+  align-items: center;
+  color: #2a555b;
+  margin-top: auto;
+  padding-bottom: 36px;
+}
+
+.fifthSelectionInsideMain1Inside3 span:nth-child(1) {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110px;
+}
+
+.fifthSelectionInsideMain1Inside3 span:nth-child(2) {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fifthSelectionInsideMain1InsideBorder {
+  width: 332px;
+  height: 230.62px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.434);
+}
+
+.fifthSelectionInsideMain1Inside4 {
+  margin-top: 36px;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.fifthSelectionInsideMain1Inside4Pynct {
+  margin-bottom: 20.5px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #242424;
+}
+
+.fifthSelectionInsideMain1InsideBtn {
+  display: flex;
+  margin-top: auto;
+  width: 325px;
+  height: 75px;
+  border: 3px solid #2a555b;
+  border-radius: 500px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 700;
+  color: #2a555b;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.fifthSelectionInsideMain1InsideBtn:hover {
+  background-color: #2a555b;
+  color: white;
+}
+
+.fifthSelectionInsideMain1InsideBtn:active {
+  transform: scale(0.98);
+}
+
+.fifthSelectionInsideMain1Vigoda {
+  width: 93px;
+  height: 27px;
+  background-color: #527d83;
+  position: absolute;
+  margin-left: 292px;
+  margin-top: 15px;
+  border-radius: 16.52px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+.fifthSelectionInsideMain1Vigoda1 {
+  width: 93px;
+  height: 27px;
+  background-color: #527d83;
+
+  border-radius: 16.52px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.fifthSelectionInsideMain1VigodaGift {
+  position: absolute;
+  margin-left: 247px;
+  margin-top: 15px;
+  width: 138px;
+  height: 27px;
+
+  display: flex;
+  flex-direction: row;
+}
+.fifthSelectionInsideMain1VigodaincludeGift {
+  background-color: #527d83;
+  border-radius: 13.52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 27px;
+}
+
+.fifthSelectionInsideMain1VigodaPlus {
+  width: 8px;
+  height: 8px;
+  color: #527d83;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fifthSelectionBackGround {
+  width: 1920px;
+  z-index: -10000;
+  display: flex;
+  background-color: #2a555b;
+}
+
+.sixthSelection {
+  width: 1920px;
+  height: 321px;
+  background-color: rgb(25, 57, 68);
+}
+
+.sixthSelectionheader {
+  width: 1660px;
+  height: 146.34px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 131px;
+
+  font-family: "TeXGyreAdventor", sans-serif;
+}
+
+.sixthSelectionheaderTop1 {
+  height: 65px;
+  width: 1660px;
+
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sixthSelectionheaderTop1 img {
+  width: 167.55px;
+  height: 35px;
+}
+
+.sixthSelectionheaderTop2 {
+  cursor: pointer;
+  user-select: none;
+  width: 325px;
+  height: 65px;
+  border-radius: 500px;
+  border: 3px solid #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.sixthSelectionheaderTop2:hover {
+  background-color: #ffffff;
+  color: rgb(25, 57, 68);
+}
+.sixthSelectionheaderTop2:active {
+  transform: scale(0.98);
+}
+
+.sixthSelectionheaderBottom {
+  width: 1660px;
+  height: 49.34px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sixthSelectionheaderBox {
+  width: 627px;
+  height: 28px;
+  display: flex;
+  font-weight: 400;
+  justify-content: space-between;
+  color: #466b78;
+  font-size: 20px;
+  letter-spacing: 140%;
+}
+
+.sixthSelectionheaderBox div {
+  user-select: none;
+  cursor: pointer;
+}
+
+.sixthSelectionheaderBottomRight {
+  width: 185px;
+  height: 49.34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sixthSelectionheaderBoxHover {
+  transition: all 0.3s ease;
+}
+
+.sixthSelectionheaderBoxHover:hover {
+  color: #ffffff;
+}
+.sixthSelectionheaderBoxHover:active {
+  transform: scale(0.98);
+}
+
+.sixthSelectionheaderBottomRight img {
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sixthSelectionheaderBottomRight img:active {
+  transform: scale(0.8);
+}

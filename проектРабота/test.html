@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Тарифы</title>
+    <style>
+      .carousel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .cards {
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+        width: 100%;
+      }
+      .card {
+        min-width: 280px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        flex-shrink: 0;
+      }
+      .hidden {
+        display: none;
+      }
+      button {
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel">
+      <button id="prev">&larr;</button>
+      <div class="cards" id="cardsContainer">
+        <!-- Первая группа -->
+        <div class="card-group">
+          <div class="card">Пробное занятие<br />$50</div>
+          <div class="card">Месячный курс<br />$380</div>
+          <div class="card">Курс на 3 месяца<br />$1150</div>
+          <div class="card">Полугодовой пакет<br />$2250</div>
+        </div>
+        <!-- Вторая группа -->
+        <div class="card-group hidden">
+          <div class="card">Интенсив 1<br />$300</div>
+          <div class="card">Интенсив 2<br />$600</div>
+          <div class="card">Курс бизнес<br />$1200</div>
+          <div class="card">Годовой курс<br />$4000</div>
+        </div>
+      </div>
+      <button id="next">&rarr;</button>
+    </div>
+
+    <script>
+      const groups = document.querySelectorAll(".card-group");
+      let current = 0;
+
+      document.getElementById("next").addEventListener("click", () => {
+        groups[current].classList.add("hidden");
+        current = (current + 1) % groups.length;
+        groups[current].classList.remove("hidden");
+      });
+
+      document.getElementById("prev").addEventListener("click", () => {
+        groups[current].classList.add("hidden");
+        current = (current - 1 + groups.length) % groups.length;
+        groups[current].classList.remove("hidden");
+      });
+    </script>
+  </body>
+</html>
